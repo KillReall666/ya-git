@@ -36,6 +36,10 @@
 Команда git log выводит подробный log всех коммитов.
 
 Команда git log --oneline выведет сохращенный список коммитов и их сокрашенные хэши. 
+
+---
+
+## Жизненный цикл файлов git.
  
 ![Image](https://github.com/KillReall666/ya-git/assets/120399387/5ef8b8b8-8508-4286-8b7e-e68ba74d950d)
 Украл картинку у [Yandex-practicum](https://practicum.yandex.ru/) для наглядности.
