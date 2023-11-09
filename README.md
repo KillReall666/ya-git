@@ -64,18 +64,14 @@ Date — дата и время создания коммита.
 ![Image](https://github.com/KillReall666/ya-git/assets/120399387/5ef8b8b8-8508-4286-8b7e-e68ba74d950d)
 Украл картинку у [Yandex-practicum](https://practicum.yandex.ru/) для наглядности.
 
-
-HEAD -- это голова.
-Коммит -- это всему голова.
-Статусы файлов:
-<тут пустая строка!>
+___
 
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+  A[Types of metalheads] -->B{Do you like Slipknot?};
+  B -- Yes --> C[You are wellcome!];
+  B -- No --> D[Fuck off!];
+  C ----> E[Hail to satan!];
+  D ----> E[Hail to saran!];
 ```
 
