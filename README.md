@@ -72,6 +72,6 @@ graph LR;
   B -- Yes --> C[You are wellcome!];
   B -- No --> D[Fuck off!];
   C ----> E[Hail to satan!];
-  D ----> E[Hail to saran!];
+  D ----> E[Hail to satan!];
 ```
 
