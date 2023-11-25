@@ -95,6 +95,9 @@ ___
 Комманда git restore --staged <file> убирает файл из staging, т.е из "зоны коммита", в зону untracked. 
 Комманда git restore --staged сбросит  всю текущую папку (.).
 Раньше для этого использовали git reset HEAD...
+Если случайно изменили файл, который не планировали (стал отображаться в Changes not staged for commit. Modified.) 
+можно верунть все "как было" с помощью комманды gi restore <file>. Изменения в файле "откатятся" до последней версии,
+которая была сохранена через git commit или git add.
 
 ### 10. Reset
 
@@ -103,4 +106,5 @@ ___
 
 ![Image](https://github.com/KillReall666/ya-git/blob/master/Image.png)
 Украл картинку у [Yandex-practicum](https://practicum.yandex.ru/) для наглядности.
-vimtutor.ru
+
+If you wanna lear some vim... vimtutor.ru
