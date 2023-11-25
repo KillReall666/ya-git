@@ -90,4 +90,17 @@ ___
 Изменить сообщение коммита — git commit --amend -m "Новое сообщение"
 ___ 
 
+### 9. Restore
+
+Комманда git restore --staged <file> убирает файл из staging, т.е из "зоны коммита", в зону untracked. 
+Комманда git restore --staged сбросит  всю текущую папку (.).
+Раньше для этого использовали git reset HEAD...
+
+### 10. Reset
+
+Для того что бы "откатить" то, что уже было закоммичено, тоесть вернуть состояние репозитория к более раннему,
+используют комманду git reset --hard <commit hash> (hash можно найти в истории с помощью git log --oneline)
+
+![Image](/Users/Mr8/Downloads/Image.png)
+Украл картинку у [Yandex-practicum](https://practicum.yandex.ru/) для наглядности.
 vimtutor.ru
