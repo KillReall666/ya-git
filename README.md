@@ -101,6 +101,6 @@ ___
 Для того что бы "откатить" то, что уже было закоммичено, тоесть вернуть состояние репозитория к более раннему,
 используют комманду git reset --hard <commit hash> (hash можно найти в истории с помощью git log --oneline)
 
-![Image](/Users/Mr8/Downloads/Image.png)
+![Image](/Users/Mr8/Desktop/my-project/Image.png)
 Украл картинку у [Yandex-practicum](https://practicum.yandex.ru/) для наглядности.
 vimtutor.ru
